@@ -9,7 +9,7 @@ public class operator5 {
             System.out.println("condition satisfied");
 
         }else{
-            System.out.println("one of the condtion is not satisfied");
+            System.out.println("Both condtions are not satisfied");
         }
 
 
@@ -18,3 +18,4 @@ public class operator5 {
 
     
 }
+
