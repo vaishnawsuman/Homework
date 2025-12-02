@@ -1,0 +1,21 @@
+import java.util.*;
+public class conditional2 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.print("enter age  for voting:  ");
+        int a = sc.nextInt();
+        //   int b = sc.nextInt();
+        //     int c = sc.nextInt();
+
+        if(a<18){
+            System.out.println("candidate cannot vote");
+        
+
+        }else if(a ==18){
+            System.out.println("candidate can vote after a year");
+        }else{
+            System.out.println(" candidate can vote.");
+        }
+    }
+    
+}
